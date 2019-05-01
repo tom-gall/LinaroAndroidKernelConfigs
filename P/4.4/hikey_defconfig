@@ -1,6 +1,6 @@
 #
 # Automatically generated file; DO NOT EDIT.
-# Linux/arm64 4.4.176 Kernel Configuration
+# Linux/arm64 4.4.179 Kernel Configuration
 #
 CONFIG_ARM64=y
 CONFIG_64BIT=y
@@ -502,6 +502,7 @@ CONFIG_BINFMT_SCRIPT=y
 CONFIG_BINFMT_MISC=y
 CONFIG_COREDUMP=y
 CONFIG_COMPAT=y
+CONFIG_KEYS_COMPAT=y
 
 #
 # Power management options
@@ -1960,6 +1961,7 @@ CONFIG_DEVPTS_MULTIPLE_INSTANCES=y
 # CONFIG_NOZOMI is not set
 # CONFIG_N_GSM is not set
 # CONFIG_TRACE_SINK is not set
+CONFIG_LDISC_AUTOLOAD=y
 # CONFIG_DEVMEM is not set
 # CONFIG_DEVKMEM is not set
 
@@ -2013,7 +2015,6 @@ CONFIG_HVC_DRIVER=y
 CONFIG_VIRTIO_CONSOLE=y
 # CONFIG_IPMI_HANDLER is not set
 # CONFIG_HW_RANDOM is not set
-# CONFIG_R3964 is not set
 # CONFIG_APPLICOM is not set
 
 #
@@ -4232,8 +4233,6 @@ CONFIG_ANDROID_BINDER_DEVICES="binder,hwbinder,vndbinder"
 # CONFIG_LIBNVDIMM is not set
 # CONFIG_NVMEM is not set
 # CONFIG_STM is not set
-# CONFIG_STM_DUMMY is not set
-# CONFIG_STM_SOURCE_CONSOLE is not set
 # CONFIG_INTEL_TH is not set
 
 #
@@ -4692,7 +4691,6 @@ CONFIG_DEBUG_RODATA=y
 # Security options
 #
 CONFIG_KEYS=y
-CONFIG_KEYS_COMPAT=y
 # CONFIG_PERSISTENT_KEYRINGS is not set
 # CONFIG_BIG_KEYS is not set
 CONFIG_ENCRYPTED_KEYS=y
